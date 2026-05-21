@@ -1,0 +1,38 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "npm install": true,
+        "/^cd \"c:\\\\Users\\\\TobíasFernandezSarso\\\\Desktop\\\\repo-cear\\\\cear-siniestros\\\\backend\"; cmd /c npm install @supabase/supabase-js$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^cd \"c:\\\\Users\\\\TobíasFernandezSarso\\\\Desktop\\\\repo-cear\\\\cear-siniestros\\\\backend\"; cmd /c npm list @supabase/supabase-js$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "npm start": true,
+        "/^cd \"c:\\\\Users\\\\TobíasFernandezSarso\\\\Desktop\\\\repo-cear\\\\cear-siniestros\\\\backend\"; node src/app\\.js$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^cd \"c:\\\\Users\\\\TobíasFernandezSarso\\\\Desktop\\\\repo-cear\\\\cear-siniestros\\\\backend\"; dir \\.env; Write-Host \"---\"; type \\.env \\| Select-Object -First 20$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^cd \"c:\\\\Users\\\\TobíasFernandezSarso\\\\Desktop\\\\repo-cear\\\\cear-siniestros\\\\backend\"; npm install; node src/app\\.js$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^cmd /c cd \"c:\\\\Users\\\\TobíasFernandezSarso\\\\Desktop\\\\repo-cear\\\\cear-siniestros\\\\backend\" ; npm install ; node src/app\\.js$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^cd \"c:\\\\Users\\\\TobíasFernandezSarso\\\\Desktop\\\\repo-cear\\\\cear-siniestros\\\\backend\"; node debug\\.js$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^cd backend; node debug\\.js$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
